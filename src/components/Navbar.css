@@ -1,0 +1,19 @@
+#navbar {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: navy;
+}
+
+#navbar-right {
+  display: flex;
+}
+
+#navbar input {
+  max-width: 30%;
+  padding: 10px;
+  border: 2px solid navy;
+  border-radius: 10px;
+}

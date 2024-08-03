@@ -1,0 +1,56 @@
+.post-container {
+  width: 80%;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.post-container p {
+  margin: 30px 0;
+}
+
+.post-container p:nth-child(1) {
+  font-weight: bold;
+}
+
+.comments {
+  background-color: gainsboro;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.comments p {
+  margin: 10px;
+}
+
+.comments input:nth-child(2) {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.comments button {
+  margin: 20px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons p {
+  margin-left: 10px;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 30%;
+}

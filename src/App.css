@@ -1,0 +1,50 @@
+.link {
+  margin: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: navy;
+}
+
+.link:visited {
+  color: navy;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 90%;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+input:nth-child(2) {
+  padding-bottom: 70px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.icons {
+  margin-right: 10px;
+}
